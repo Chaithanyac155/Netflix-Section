@@ -26,8 +26,8 @@ class SignupForm extends Component {
   render() {
     return (
       <>
-        <div className="row">
-          <div className="col-sm-6 col-md-6 col-lg-6  col-xl-6 mx-auto">
+        <div className="row" style={{ margin: "0px" }}>
+          <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 mx-auto">
             <div
               class="mx-auto rounded-0 mb-1 mt-1 bg-secondary"
               style={{
