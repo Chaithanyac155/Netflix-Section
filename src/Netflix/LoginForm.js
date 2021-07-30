@@ -5,16 +5,16 @@ import Footer from "./Footer";
 const LoginForm = () => {
   return (
     <>
-      <div className="row">
-        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 mx-auto">
+      <div className="row" style={{ margin: "0px" }}>
+        <div className="col-sm-5 col-md-6 col-lg-6 col-xl-6 mx-auto">
           <div
-            className="mx-auto mt-4 mb-3 rounded-0 bg-dark"
-            style={{ width: "auto", height: "auto", border: "4px solid grey" }}
+            className="mx-auto rounded-0 bg-secondary"
+            style={{ width: "auto", height: "auto", border: "4px solid white" }}
           >
             <div className="p-3 mt-4">
               <div className="flex">
                 <div className="mb-3 d-flex justify-content-center font-weight-normal float-right">
-                  <span className="logo-title">LOGIN</span>
+                  <span className="text-white">LOGIN</span>
                 </div>
               </div>
               <input
